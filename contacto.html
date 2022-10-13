@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body style="background-color:#99ffff;">
+    <!--Encabezado-->
+    <h1> CONTACTO</h1>
+    <hr/>
+    <!--Menu-->
+    <h3>MENU</h3>
+    <ul>
+        <li><a href="index.html" title="home">ir al home</a> </li>
+        <li><a href="tabla.html">ir a tabla</a></li>
+        <li><a href="contacto.html">ir a contacto</a></li>
+    </ul>
+    <hr/>
+    <!--Pagina de Contacto-->
+    <h2>PAGINA DE CONTACTO</h2>
+    <form>
+        <p>
+            <lavel for="nombre">Nombre</lavel> <br/>
+            <input type="text" name="nombre" cols="30" placeholder="escribe aquí tu nombre"/>
+        </p>
+        <P>
+            <lavel for="correo email"> e-mail </lavel> <br/>
+            <textarea name="correo email" id="mail" cols="30" rows="2" placeholder="escribe aquí tu email"></textarea></lavel>
+        </P>
+        <P>
+            <lavel for="mensaje"> Deja tu mensaje </lavel> <br/>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="deja aqui tu mensaje"></textarea></lavel>
+        </P>
+        
+        <h3>OPCIONES DE GENERO</h3>
+        <input type="radio" name="genero" value="hombre"> Hombre <br/>
+        <input type="radio" name="genero" value="mujer"> Mujer <br/>
+        <input type="radio" name="genero" value="otro"> Otro <br/>
+        <br/>
+        
+        
+        <h3> OPCIONES DE EDAD</h3>     
+        <lavel for="edad"></lavel>
+        <select name="edad">
+                <option value="menor">Menor de edad</option>
+                <option value="mayor">Mayor de edad</option>
+                <option value="senior">Tercera edad</option> 
+          </select>  
+    <br/> 
+    <br/> 
+    <input type="submit" value="Enviar formulario">
+     
+    </form>      
+    
+    <hr/>
+   <footer>
+    <p>Author: Jorge Villablanca<br>
+    <a href="index.html">HOME</a>
+    </p>
+  </footer>
+   
+</body>
+</html>
